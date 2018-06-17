@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="healthCareDB:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b38eee91-87f3-4d47-a1bd-e13ac3977f4a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dbConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dbConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3638">
+              <caret line="218" column="29" lean-forward="false" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1526428618327" expanded="true" signature="1036:1170" ph="INSERT INTO `missingValue`.`doctor`... " />
+                <marker date="1526428618327" expanded="true" signature="1036:1215" ph="INSERT INTO `missingValue`.`doctor`... " />
+                <marker date="1526428618327" expanded="true" signature="1906:2051" ph="INSERT INTO `hcc`.`patient`... " />
+                <marker date="1526428618327" expanded="true" signature="2644:2702" ph="SELECT * FRO... patient_has_test" />
+                <marker date="1526428618327" expanded="true" signature="2904:2924" ph="SELECT * FRO... ra" />
+                <marker date="1526428618327" expanded="true" signature="2904:2925" ph="SELECT * FRO... ray" />
+                <marker date="1526428618327" expanded="true" signature="3222:3313" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+                <marker date="1526428618327" expanded="true" signature="3693:3747" ph="SELECT * FRO... medicine" />
+                <marker date="1526428618327" expanded="true" signature="3693:3756" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+                <marker date="1526428618327" expanded="true" signature="4169:4306" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+                <marker date="1526428618327" expanded="true" signature="4771:4941" ph="Insert into bill... " />
+                <marker date="1526428618327" expanded="true" signature="4856:4898" ph="SELECT SUM(p... bill_view" />
+                <marker date="1526428618327" expanded="true" signature="4967:5058" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+                <marker date="1526428618327" expanded="true" signature="5282:5953" ph="CREATE OR RE... bill_view" />
+                <marker date="1526428618327" expanded="true" signature="5282:5954" ph="CREATE OR RE... bill_view" />
+                <marker date="1526428618327" expanded="true" signature="5349:5648" ph="SELECT `name... patient_has_ray" />
+                <marker date="1526428618327" expanded="true" signature="5349:5649" ph="SELECT `name... patient_has_ray" />
+                <marker date="1526428618327" expanded="true" signature="5713:5953" ph="SELECT `name... patient_has_test" />
+                <marker date="1526428618327" expanded="true" signature="5997:6125" ph="SELECT name_... patient_has_ray" />
+                <marker date="1526428618327" expanded="true" signature="5997:6265" ph="SELECT name_... " />
+                <marker date="1526428618327" expanded="true" signature="6132:6265" ph="SELECT name_... patient_has_test" />
+                <marker date="1526428618327" expanded="true" signature="6285:6312" ph="SELECT * FRO... bill_view" />
+                <marker date="1526428618327" expanded="true" signature="6875:6969" ph="INSERT INTO `hcm`.`patient_has_test`... " />
+                <marker date="1526428618327" expanded="true" signature="7336:7401" ph="INSERT INTO `hcm`.`test`... " />
+                <marker date="1526428618327" expanded="true" signature="7927:7989" ph="INSERT INTO `hcm`.`ray`... " />
+                <marker date="1526428618327" expanded="true" signature="8448:8514" ph="INSERT INTO `hcm`.`ray`... " />
+                <marker date="1526428618327" expanded="true" signature="8917:8957" ph="SELECT * FRO... ray" />
+                <marker date="1526428618327" expanded="true" signature="8917:8958" ph="SELECT * FRO... ray" />
+                <marker date="1526428618327" expanded="true" signature="8917:8960" ph="SELECT * FRO... ray" />
+                <marker date="1526428618327" expanded="true" signature="8917:8964" ph="SELECT * FRO... ray" />
+                <marker date="1526428618327" expanded="true" signature="8917:8977" ph="SELECT * FRO... ray" />
+                <marker date="1526428618327" expanded="true" signature="9219:9281" ph="SELECT * FRO... test" />
+                <marker date="1526428618327" expanded="true" signature="9513:9535" ph="SELECT * FRO... test" />
+                <marker date="1526428618327" expanded="true" signature="9513:9536" ph="SELECT * FRO... ray" />
+                <marker date="1526428618327" expanded="true" signature="9743:9801" ph="SELECT * FRO... patient_has_ray" />
+                <marker date="1526428618327" expanded="true" signature="10115:10160" ph="SELECT * FRO... doctor" />
+                <marker date="1526428618327" expanded="true" signature="11008:11054" ph="SELECT * FRO... patient" />
+                <marker date="1526428618327" expanded="true" signature="12189:12213" ph="SELECT * FRO... doctor" />
+                <marker date="1526428618327" expanded="true" signature="13302:13327" ph="SELECT * FRO... patient" />
+                <marker date="1526428618327" expanded="true" signature="14557:14609" ph="SELECT * FRO... patient" />
+                <marker date="1526428618327" expanded="true" signature="14557:14610" ph="SELECT * FRO... patient" />
+                <marker date="1526428618327" expanded="true" signature="15981:16009" ph="SELECT COUNT... " />
+                <marker date="1526428618327" expanded="true" signature="15981:16014" ph="SELECT COUNT... " />
+                <marker date="1526428618327" expanded="true" signature="15981:16031" ph="SELECT COUNT... missingValue" />
+                <marker date="1526428618327" expanded="true" signature="15981:16043" ph="SELECT COUNT... " />
+                <marker date="1526428618327" expanded="true" signature="16397:16478" ph="select SUM(p... bill_view" />
+                <marker date="1526428618327" expanded="true" signature="16891:16941" ph="SELECT COUNT... missingValue" />
+                <marker date="1526428618327" expanded="true" signature="17305:17351" ph="SELECT * FRO... test" />
+                <marker date="1526428618327" expanded="true" signature="17305:17362" ph="SELECT * FRO... test" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1462">
+              <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showDoc.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/showDoc.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2108">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showPatient.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/showPatient.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="694" column="62" lean-forward="false" selection-start-line="694" selection-start-column="62" selection-end-line="694" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_ajax.googleapis.com_ajax_libs_jquery_3.2.1_jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.2.1_jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doctor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/doctor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3009">
+              <caret line="177" column="24" lean-forward="false" selection-start-line="177" selection-start-column="24" selection-end-line="177" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mydoctor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/mydoctor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2329">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="procedure.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/procedure.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medicine.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/medicine.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>html</find>
+      <find>sub</find>
+      <find>rs</find>
+      <find>rs.</find>
+      <find>edit</find>
+      <find>successfully</find>
+      <find>println</find>
+      <find>insertTest</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/dbConnection.java" />
+        <option value="$PROJECT_DIR$/healthCareDB.iml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/css/bulma.css" />
+        <option value="$PROJECT_DIR$/web/showDoctors.xhtml" />
+        <option value="$PROJECT_DIR$/src/com/model/Department.java" />
+        <option value="$PROJECT_DIR$/src/com/model/Nurse.java" />
+        <option value="$PROJECT_DIR$/web/singDetection.py" />
+        <option value="$PROJECT_DIR$/web/app.js" />
+        <option value="$PROJECT_DIR$/src/com/model/patient.java" />
+        <option value="$PROJECT_DIR$/web/patient.jsp" />
+        <option value="$PROJECT_DIR$/src/com/model/Ray.java" />
+        <option value="$PROJECT_DIR$/src/com/model/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/com/dbHelper.java" />
+        <option value="$PROJECT_DIR$/web/css/autocomplete.jsp" />
+        <option value="$PROJECT_DIR$/web/states.jsp" />
+        <option value="$PROJECT_DIR$/web/checkout.jsp" />
+        <option value="$PROJECT_DIR$/web/doctor.jsp" />
+        <option value="$PROJECT_DIR$/web/allPatients.jsp" />
+        <option value="$PROJECT_DIR$/web/mydoctor.jsp" />
+        <option value="$PROJECT_DIR$/web/showDoc.jsp" />
+        <option value="$PROJECT_DIR$/web/dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/medicine.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dbConnection.java" />
+        <option value="$PROJECT_DIR$/web/procedure.jsp" />
+        <option value="$PROJECT_DIR$/web/showPatient.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="healthCareDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthCareDB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthCareDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthCareDB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthCareDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthCareDB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthCareDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healthCareDB" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healthCareDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="healthCareDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jquery" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="healthCareDB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="jQuery-2.0.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="healthCareDB" type="58d84e3e:PackageViewProjectNode" />
+              <item name="healthCareDB" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="healthCareDB" type="cbb8eebc:String" user="healthCareDB" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/itextpdf-5.5.13.jar!/" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 9.0.0.M9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M9" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="healthCareDB:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_0_M9_healthCareDB" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="healthCareDB:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b38eee91-87f3-4d47-a1bd-e13ac3977f4a" name="Default" comment="" />
+      <created>1521900843540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521900843540</updated>
+      <workItem from="1521900871515" duration="9671000" />
+      <workItem from="1521912789857" duration="5181000" />
+      <workItem from="1521994212904" duration="637000" />
+      <workItem from="1522055158095" duration="747000" />
+      <workItem from="1522076363142" duration="4690000" />
+      <workItem from="1522347450683" duration="894000" />
+      <workItem from="1522790711585" duration="2132000" />
+      <workItem from="1522846123338" duration="11900000" />
+      <workItem from="1523282756728" duration="9578000" />
+      <workItem from="1523360522121" duration="6452000" />
+      <workItem from="1524143875485" duration="592000" />
+      <workItem from="1524439768209" duration="1228000" />
+      <workItem from="1525008734337" duration="1150000" />
+      <workItem from="1525168653320" duration="16220000" />
+      <workItem from="1525249383456" duration="5989000" />
+      <workItem from="1525605024844" duration="744000" />
+      <workItem from="1525606813168" duration="594000" />
+      <workItem from="1525643930494" duration="956000" />
+      <workItem from="1525804847530" duration="10494000" />
+      <workItem from="1525856503858" duration="19365000" />
+      <workItem from="1526037059221" duration="5488000" />
+      <workItem from="1526048666271" duration="2412000" />
+      <workItem from="1526243520952" duration="23795000" />
+      <workItem from="1526462044240" duration="2696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143605000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34375" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2397882" sideWeight="0.55263156" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31240544" sideWeight="0.4473684" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1526428618327" expanded="true" signature="1036:1170" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1036:1215" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1906:2051" ph="INSERT INTO `hcc`.`patient`... " />
+            <marker date="1526428618327" expanded="true" signature="2644:2702" ph="SELECT * FRO... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="2904:2924" ph="SELECT * FRO... ra" />
+            <marker date="1526428618327" expanded="true" signature="2904:2925" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="3222:3313" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="3693:3747" ph="SELECT * FRO... medicine" />
+            <marker date="1526428618327" expanded="true" signature="3693:3756" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4169:4306" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4771:4941" ph="Insert into bill... " />
+            <marker date="1526428618327" expanded="true" signature="4856:4898" ph="SELECT SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="4967:5058" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="5282:5953" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5282:5954" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5349:5648" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5349:5649" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5713:5953" ph="SELECT `name... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="5997:6125" ph="SELECT name_... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5997:6265" ph="SELECT name_... " />
+            <marker date="1526428618327" expanded="true" signature="6132:6265" ph="SELECT name_... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="6285:6312" ph="SELECT * FRO... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="6875:6969" ph="INSERT INTO `hcm`.`patient_has_test`... " />
+            <marker date="1526428618327" expanded="true" signature="7336:7401" ph="INSERT INTO `hcm`.`test`... " />
+            <marker date="1526428618327" expanded="true" signature="7927:7989" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8448:8514" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8917:8957" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8958" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8960" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8964" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8977" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9219:9281" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9535" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9536" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9743:9801" ph="SELECT * FRO... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="10115:10160" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="11008:11054" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="12189:12213" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="13302:13327" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14609" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14610" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="15981:16009" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16014" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16031" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="15981:16043" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="16397:16478" ph="select SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="16891:16941" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="17305:17351" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="17305:17362" ph="SELECT * FRO... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthCareDB.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/doctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="205" column="38" lean-forward="false" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1526428618327" expanded="true" signature="1036:1170" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1036:1215" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1906:2051" ph="INSERT INTO `hcc`.`patient`... " />
+            <marker date="1526428618327" expanded="true" signature="2644:2702" ph="SELECT * FRO... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="2904:2924" ph="SELECT * FRO... ra" />
+            <marker date="1526428618327" expanded="true" signature="2904:2925" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="3222:3313" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="3693:3747" ph="SELECT * FRO... medicine" />
+            <marker date="1526428618327" expanded="true" signature="3693:3756" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4169:4306" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4771:4941" ph="Insert into bill... " />
+            <marker date="1526428618327" expanded="true" signature="4856:4898" ph="SELECT SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="4967:5058" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="5282:5953" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5282:5954" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5349:5648" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5349:5649" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5713:5953" ph="SELECT `name... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="5997:6125" ph="SELECT name_... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5997:6265" ph="SELECT name_... " />
+            <marker date="1526428618327" expanded="true" signature="6132:6265" ph="SELECT name_... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="6285:6312" ph="SELECT * FRO... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="6875:6969" ph="INSERT INTO `hcm`.`patient_has_test`... " />
+            <marker date="1526428618327" expanded="true" signature="7336:7401" ph="INSERT INTO `hcm`.`test`... " />
+            <marker date="1526428618327" expanded="true" signature="7927:7989" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8448:8514" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8917:8957" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8958" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8960" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8964" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8977" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9219:9281" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9535" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9536" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9743:9801" ph="SELECT * FRO... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="10115:10160" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="11008:11054" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="12189:12213" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="13302:13327" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14609" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14610" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="15981:16009" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16014" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16031" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="15981:16043" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="16397:16478" ph="select SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="16891:16941" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="17305:17351" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="17305:17362" ph="SELECT * FRO... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthCareDB.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/doctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="205" column="38" lean-forward="false" selection-start-line="205" selection-start-column="38" selection-end-line="205" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1526428618327" expanded="true" signature="1036:1170" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1036:1215" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1906:2051" ph="INSERT INTO `hcc`.`patient`... " />
+            <marker date="1526428618327" expanded="true" signature="2644:2702" ph="SELECT * FRO... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="2904:2924" ph="SELECT * FRO... ra" />
+            <marker date="1526428618327" expanded="true" signature="2904:2925" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="3222:3313" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="3693:3747" ph="SELECT * FRO... medicine" />
+            <marker date="1526428618327" expanded="true" signature="3693:3756" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4169:4306" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4771:4941" ph="Insert into bill... " />
+            <marker date="1526428618327" expanded="true" signature="4856:4898" ph="SELECT SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="4967:5058" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="5282:5953" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5282:5954" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5349:5648" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5349:5649" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5713:5953" ph="SELECT `name... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="5997:6125" ph="SELECT name_... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5997:6265" ph="SELECT name_... " />
+            <marker date="1526428618327" expanded="true" signature="6132:6265" ph="SELECT name_... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="6285:6312" ph="SELECT * FRO... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="6875:6969" ph="INSERT INTO `hcm`.`patient_has_test`... " />
+            <marker date="1526428618327" expanded="true" signature="7336:7401" ph="INSERT INTO `hcm`.`test`... " />
+            <marker date="1526428618327" expanded="true" signature="7927:7989" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8448:8514" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8917:8957" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8958" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8960" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8964" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8977" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9219:9281" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9535" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9536" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9743:9801" ph="SELECT * FRO... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="10115:10160" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="11008:11054" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="12189:12213" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="13302:13327" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14609" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14610" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="15981:16009" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16014" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16031" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="15981:16043" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="16397:16478" ph="select SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="16891:16941" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="17305:17351" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="17305:17362" ph="SELECT * FRO... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthCareDB.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/doctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="199" column="62" lean-forward="false" selection-start-line="199" selection-start-column="62" selection-end-line="199" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1526428618327" expanded="true" signature="1036:1170" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1036:1215" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1906:2051" ph="INSERT INTO `hcc`.`patient`... " />
+            <marker date="1526428618327" expanded="true" signature="2644:2702" ph="SELECT * FRO... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="2904:2924" ph="SELECT * FRO... ra" />
+            <marker date="1526428618327" expanded="true" signature="2904:2925" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="3222:3313" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="3693:3747" ph="SELECT * FRO... medicine" />
+            <marker date="1526428618327" expanded="true" signature="3693:3756" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4169:4306" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4771:4941" ph="Insert into bill... " />
+            <marker date="1526428618327" expanded="true" signature="4856:4898" ph="SELECT SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="4967:5058" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="5282:5953" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5282:5954" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5349:5648" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5349:5649" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5713:5953" ph="SELECT `name... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="5997:6125" ph="SELECT name_... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5997:6265" ph="SELECT name_... " />
+            <marker date="1526428618327" expanded="true" signature="6132:6265" ph="SELECT name_... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="6285:6312" ph="SELECT * FRO... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="6875:6969" ph="INSERT INTO `hcm`.`patient_has_test`... " />
+            <marker date="1526428618327" expanded="true" signature="7336:7401" ph="INSERT INTO `hcm`.`test`... " />
+            <marker date="1526428618327" expanded="true" signature="7927:7989" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8448:8514" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8917:8957" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8958" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8960" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8964" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8977" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9219:9281" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9535" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9536" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9743:9801" ph="SELECT * FRO... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="10115:10160" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="11008:11054" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="12189:12213" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="13302:13327" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14609" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14610" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="15981:16009" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16014" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16031" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="15981:16043" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="16397:16478" ph="select SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="16891:16941" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="17305:17351" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="17305:17362" ph="SELECT * FRO... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/doctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthCareDB.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/showDoctors.jsp" />
+    <entry file="file://$PROJECT_DIR$/healthCareDB.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bulma.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/singDetection.py" />
+    <entry file="file://$PROJECT_DIR$/web/app.js" />
+    <entry file="file://$PROJECT_DIR$/web/patient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2788">
+          <caret line="164" column="55" lean-forward="false" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/Ray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/Nurse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/model/patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="e#1306#1307#0" expanded="false" />
+            <element signature="e#1333#1334#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/autocomplete.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/autoSuggestTextbox.html" />
+    <entry file="file://$PROJECT_DIR$/web/states.jsp" />
+    <entry file="file://$USER_HOME$/Desktop/197587-I-m-tired-of-quote.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/checkout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/allPatients.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mydoctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/showDoc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/doctor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3009">
+          <caret line="177" column="24" lean-forward="false" selection-start-line="177" selection-start-column="24" selection-end-line="177" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/medicine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="218" column="29" lean-forward="false" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1526428618327" expanded="true" signature="1036:1170" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1036:1215" ph="INSERT INTO `missingValue`.`doctor`... " />
+            <marker date="1526428618327" expanded="true" signature="1906:2051" ph="INSERT INTO `hcc`.`patient`... " />
+            <marker date="1526428618327" expanded="true" signature="2644:2702" ph="SELECT * FRO... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="2904:2924" ph="SELECT * FRO... ra" />
+            <marker date="1526428618327" expanded="true" signature="2904:2925" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="3222:3313" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="3693:3747" ph="SELECT * FRO... medicine" />
+            <marker date="1526428618327" expanded="true" signature="3693:3756" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4169:4306" ph="INSERT INTO `hcm`.`patient_has_medicine`... " />
+            <marker date="1526428618327" expanded="true" signature="4771:4941" ph="Insert into bill... " />
+            <marker date="1526428618327" expanded="true" signature="4856:4898" ph="SELECT SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="4967:5058" ph="INSERT INTO `hcm`.`patient_has_ray`... " />
+            <marker date="1526428618327" expanded="true" signature="5282:5953" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5282:5954" ph="CREATE OR RE... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="5349:5648" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5349:5649" ph="SELECT `name... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5713:5953" ph="SELECT `name... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="5997:6125" ph="SELECT name_... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="5997:6265" ph="SELECT name_... " />
+            <marker date="1526428618327" expanded="true" signature="6132:6265" ph="SELECT name_... patient_has_test" />
+            <marker date="1526428618327" expanded="true" signature="6285:6312" ph="SELECT * FRO... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="6875:6969" ph="INSERT INTO `hcm`.`patient_has_test`... " />
+            <marker date="1526428618327" expanded="true" signature="7336:7401" ph="INSERT INTO `hcm`.`test`... " />
+            <marker date="1526428618327" expanded="true" signature="7927:7989" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8448:8514" ph="INSERT INTO `hcm`.`ray`... " />
+            <marker date="1526428618327" expanded="true" signature="8917:8957" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8958" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8960" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8964" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="8917:8977" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9219:9281" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9535" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="9513:9536" ph="SELECT * FRO... ray" />
+            <marker date="1526428618327" expanded="true" signature="9743:9801" ph="SELECT * FRO... patient_has_ray" />
+            <marker date="1526428618327" expanded="true" signature="10115:10160" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="11008:11054" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="12189:12213" ph="SELECT * FRO... doctor" />
+            <marker date="1526428618327" expanded="true" signature="13302:13327" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14609" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="14557:14610" ph="SELECT * FRO... patient" />
+            <marker date="1526428618327" expanded="true" signature="15981:16009" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16014" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="15981:16031" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="15981:16043" ph="SELECT COUNT... " />
+            <marker date="1526428618327" expanded="true" signature="16397:16478" ph="select SUM(p... bill_view" />
+            <marker date="1526428618327" expanded="true" signature="16891:16941" ph="SELECT COUNT... missingValue" />
+            <marker date="1526428618327" expanded="true" signature="17305:17351" ph="SELECT * FRO... test" />
+            <marker date="1526428618327" expanded="true" signature="17305:17362" ph="SELECT * FRO... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/procedure.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.2.1_jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/showPatient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="694" column="62" lean-forward="false" selection-start-line="694" selection-start-column="62" selection-end-line="694" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>healthCareDB:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jQuery-2.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>healthCareDB</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.46-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
