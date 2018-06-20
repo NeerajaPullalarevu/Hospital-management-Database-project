@@ -1,0 +1,16 @@
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Test Name','Price');
+ INSERT INTO `hcm`.`test` (`Test Name`, `Price`)VALUES('Lipid Panel','68');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Complete Blood Count','51');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Hemoglobin A1C','61');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Thyroid Stimulating Hormone','108');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Urine Analysis','92');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Prothrombin Time','36');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('PSA','117');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('HIV','92');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('EKG','367');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Echocardiogram','4361');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('Exercise Stress Test','1182');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('MRI of the Brain','3422');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('MRI of the Cervical Spine','3041');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('MRI of the Thoracic Spine','3422');
+INSERT INTO `hcm`.`test` (`Test Name`, `Price`) VALUES('MRI of the Lumbar Spine','3535');

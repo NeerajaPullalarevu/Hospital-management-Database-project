@@ -1,0 +1,10 @@
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('1','HYDROCORTISONE SODIUM ');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('2','ALBUTEROL');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('3','spironolactone');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('4','alprazolam');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('5','Panadol');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('6','methylphenidate');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`)VALUES('7','Interferon');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('8',' oseltamivir');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('9','theophylline');
+INSERT INTO `hcm`.`medicine` (`ID`, `Name`) VALUES('10','isosorbide dinitrate');
