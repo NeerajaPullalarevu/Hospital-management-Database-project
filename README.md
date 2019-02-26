@@ -1,9 +1,9 @@
 # Hospital-management-Database-project
 Hospital management system database project using JSP as a backend and SQL DBs to handle many operations.
 Features that can be handled:
-- Add patients and doctors 
-- Control the departments that exists in hospital 
-- Manage the hospotal's pharmacy by showing all available medecine that be found
+- Add patients and doctors
+- Control the departments that exists in hospital
+- Manage the hospital's pharmacy by showing all available medicine that be found
 
 ## ER-Diagram
 
